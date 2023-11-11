@@ -1,0 +1,14 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border:1px solid black;
+}
+.translated{
+    transform:perspective(10px) translateZ(-10px);
+}  
+.scaled{
+    margin-left: 200px;
+    /* No need of perspective in rotation WHY?; */
+    transform:perspective(350px) scaleZ(6) rotateX(15deg) rotateY(30deg);
+}

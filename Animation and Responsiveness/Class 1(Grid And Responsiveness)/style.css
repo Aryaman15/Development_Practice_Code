@@ -1,0 +1,22 @@
+.container{
+    height: 700px;
+    border:1px solid red;
+    background-color: yellow;
+    display: grid;
+
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+
+.box{
+    border:1px solid green;
+    background-color: aqua;
+    /* height: 100px;
+    width: 100px; */
+}
+#box1{
+    /*To make this span visible you have to remove hardcode height and width*/
+    grid-column-start: 1; /*This 1 is not column number */
+    grid-column-end:4 ;
+}

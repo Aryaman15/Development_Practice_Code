@@ -1,0 +1,23 @@
+.container{
+    height: 400px;
+    width:100%;
+    background-color: yellow;
+    border: 1px solid black;
+}
+.box{
+    height: 399px;
+    width: 399px;
+    background-color: aqua;
+    border:1px solid black;
+
+    animation: movebox 2s ease-in 2s 4 normal ;
+}
+
+@keyframes movebox{
+    from{
+        width: 399px;
+    }
+    to{
+        width: 800px;
+    }
+}

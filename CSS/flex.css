@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.box{
+    box-sizing: border-box;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    padding-top: 36px;
+    padding-left: 23px;
+    margin:2px;
+}

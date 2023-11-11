@@ -1,0 +1,23 @@
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box; /*this will fix the border size*/
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    padding-bottom: 10px;
+    margin: 2px;
+}
+
+.gradient{
+    box-sizing: border-box;
+    background-color: yellow;
+    height:100px;
+    width: 100px;
+    border: 1px solid black;
+    padding:9px;
+    margin: 5px;
+    background-image: linear-gradient(to right,red,blue);
+    box-shadow: 10px 10px;
+}

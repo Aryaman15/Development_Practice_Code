@@ -1,0 +1,33 @@
+.container{
+    height: 400px;
+    width: 100%;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    border: 1px soldi black;
+    animation: box 4s ease-in 1s 4 normal;
+}
+@keyframes box {
+    0%{
+        width: 200px;
+        background-color: aqua;
+    }
+    30%{
+        width: 500px;
+        background-color: blue
+    }
+
+    50%{
+        width: 700px;
+        background-color: brown;
+    }
+    100%{
+        width: 100%;
+        background-color: antiquewhite;
+    }
+}

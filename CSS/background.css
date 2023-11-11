@@ -1,0 +1,11 @@
+.back{
+    height: 100vh;
+    width: 100wh;
+    background-color: black;
+    overflow: scroll;
+}
+.image{
+    transform: translate(200px,100px);
+    transform: perspective(10px) translateZ(-10px);
+    transform: ro;
+}

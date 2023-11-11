@@ -1,0 +1,23 @@
+.box{
+    border: 1px solid black ;
+    height: 200px;
+    width:150px;
+    background-image: linear-gradient(red,BLUE );
+    background-image: linear-gradient(to right,red,blue);
+    background-image: linear-gradient(to bottom right,rgba(255,0,0,0),rgba(0,255,0,1))      z;
+}
+.mydiv{
+    border:1px solid black;
+    height: 200px;
+    width: 250px;;
+    background-image: radial-gradient(red,blue,yellow);
+    background-image: radial-gradient(circle,red,blue,yellow);
+    background-image: radial-gradient(yellow 5%,red 10%,blue 15%);
+}
+
+.Indianflag{
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    background-image: linear-gradient(orange,white,green);
+}

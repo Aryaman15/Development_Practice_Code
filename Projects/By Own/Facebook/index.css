@@ -1,0 +1,134 @@
+*{
+    margin:0 auto;
+    padding:0;
+    box-sizing:border-box;
+}*
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.parent{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(240, 245, 247);
+    position:relative; 
+    /* yha glti karunga */
+    display:flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    
+}
+.right{
+    display: flex;
+   height:350px;
+   width:550px;
+   justify-content: center;
+align-content: center;
+    
+}
+.text{
+    margin-left: 208px;
+    color: blue;
+    transform: translateX(90px);
+    transform: translateY(74px);
+    font-size: 30px;
+}
+.para{
+    margin-left: 210px;
+    transform: translateY(100px);
+    font-size: 28px;
+    overflow: auto;
+}
+.both{
+    gap:1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+.left{
+    height:400px;
+    width:700px;
+    justify-content: center;
+    align-content: center;
+
+}
+.box{
+    display: flex;
+    gap: 7px;
+    margin-right: 180px;
+    flex-direction: column;
+    height: 280px;
+    width: 360px;
+    background-color: white;
+    border: 1px white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+.email{
+    height: 45px;
+    width: 320px;
+    margin-top: 6px;
+    margin-left:18px;
+    /* background-color: aqua; */
+    border: 1px solid black;
+    border-radius: 10px;
+
+    padding: 14px;
+    font-size: 16px;
+}
+.pass{
+    justify-content:space-between;
+    position: relative;
+    height: 45px;
+    width: 320px;
+    margin-top: 6px;
+    margin-left:18px;
+    /* background-color: red; */
+    border: 1px solid black;
+    border-radius: 10px;
+
+    padding: 14px;
+    font-size: 16px;
+}
+.login{
+    justify-content:space-between;
+    position: relative;
+    height: 45px;
+    width: 320px;
+    margin-top: 6px;
+    margin-left:18px;
+    background-color: rgb(45, 95, 244);
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+    padding: 14px;
+    font-size: 16px;
+}
+
+.forget{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+.line{
+    display: flex;
+    border-bottom: 1px solid black;
+    width: 310px;
+    gap:9px;
+    justify-content: center
+}
+.create{
+    flex-direction: column;
+    position: relative;
+    height: 45px;
+    width: 200px;
+    margin-top: 6px;
+    margin-left:18px;
+    margin-left: 79px;
+    background-color: rgb(4, 255, 4);
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+    padding: 14px;
+    font-size: 16px;
+}

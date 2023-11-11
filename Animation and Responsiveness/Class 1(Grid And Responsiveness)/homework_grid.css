@@ -1,0 +1,22 @@
+.blog{
+    height: 600px;
+    width: 400px;
+    background-color: yellow;
+    border: 1px solid black;
+
+    display: grid;
+    grid-template-rows: 30px 1fr;
+    grid-gap: 5px;
+}
+
+.nestedelement{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3,1fr);
+}
+.img{
+    display: grid;
+    grid-gap: 5px;
+    background-color: red;
+    border: 1px solid black;
+}

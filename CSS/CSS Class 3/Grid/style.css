@@ -1,0 +1,22 @@
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+} */
+.container{
+    background-color: brown;
+    height:500px;
+    border:3px solid black;
+    display: grid;
+    /*To create the columns and rows(inspect it to see it) use grid template column */
+    grid-template-columns: 200px 200px 210px; /*3columns created*/
+    grid-template-rows: 90px 90px 90px 90px; /*4 rows 90px*/
+
+    /*Flexible grid use fr*/ 
+}
+.box{
+    background-color: aqua;
+    border:3px solid black;
+    width: 80px;
+    height: 80px;
+}

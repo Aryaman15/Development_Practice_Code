@@ -1,0 +1,25 @@
+.wrapper{
+    height: 1000px;
+    width: 1300px;
+    /* background-color: red; */
+    border: 10px;
+    border: 1px solid black;
+    margin-left:20px;
+}
+.box{
+    height: 250px;
+    width: 250px;
+    background-color: yellow;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 2px;;
+}
+/* #box1{
+    position: relative;
+    margin-left:255px;
+} */
+
+#box3{
+    position:sticky;
+    top:0;
+}

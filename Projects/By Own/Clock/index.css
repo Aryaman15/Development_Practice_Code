@@ -1,0 +1,40 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin:0;
+    padding: 0;
+    background-image: url(pexels-felix-mittermeier-956999.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+#clock {
+    cursor: pointer;
+    font-size: 175px;
+    width: 900px;
+    margin: 200px;
+    margin-top: 270px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    size: 15px;
+}
+.clockstyle{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    cursor: pointer;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    transform: translateY(230px);
+    justify-content: center;
+    
+}
+
